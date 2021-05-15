@@ -1,0 +1,46 @@
+{
+  "name": "@amirtgm/use-local-state",
+  "version": "0.0.1",
+  "description": "Use state with localstorage with React hooks",
+  "main": "dist/use-local-state.js",
+  "umd:main": "dist/use-local-state.umd.js",
+  "module": "dist/use-local-state.module.js",
+  "jsnext:main": "dist/use-local-state.module.js",
+  "react-native": "dist/use-local-state.module.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "microbundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirtgm/use-local-state"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "immer",
+    "react",
+    "hooks"
+  ],
+  "author": "Amir Ahmadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amirtgm/use-local-state/issues"
+  },
+  "homepage": "https://github.com/amirtgm/use-local-state#readme",
+  "peerDependencies": {
+    "immer": ">=2.0.0",
+    "use-immer": "^0.5.1",
+    "react": "^16.8.0 || ^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "immer": "^9.0.0",
+    "microbundle": "^0.12.4",
+    "typescript": "^4.0.5"
+  }
+}
