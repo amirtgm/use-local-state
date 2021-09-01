@@ -1,6 +1,6 @@
 {
   "name": "@amirtgm/use-local-state",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Use state with localstorage with React hooks",
   "main": "dist/use-local-state.js",
   "umd:main": "dist/use-local-state.umd.js",
@@ -32,14 +32,17 @@
     "url": "https://github.com/amirtgm/use-local-state/issues"
   },
   "homepage": "https://github.com/amirtgm/use-local-state#readme",
+  "dependencies": {
+    "immer": "^9.0.0",
+    "use-immer": "^0.5.1"
+  },
   "peerDependencies": {
-    "immer": ">=2.0.0",
+    "immer": "^9.0.0",
     "use-immer": "^0.5.1",
     "react": "^16.8.0 || ^17.0.1"
   },
   "devDependencies": {
     "@types/react": "^16.9.56",
-    "immer": "^9.0.0",
     "microbundle": "^0.12.4",
     "typescript": "^4.0.5"
   }
